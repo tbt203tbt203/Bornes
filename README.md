@@ -46,6 +46,8 @@ Pour expliquer d'ou viennent ces informations on les retrouvent dans la page htm
 Voici un exemple de la table utilisateur :
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247544596-3140d70b-3790-4a06-ab39-dd99a67ec9b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwMzgzLCJuYmYiOjE2ODczNTAwODMsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NDU5Ni0zMTQwZDcwYi0zNzkwLTRhMDYtYWIzOS1kZDk5YTY3ZWM5YjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIyMTIzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjUyODk1YzNkMzQ3ODU0OTI4OWVlOWJlNDRkMTIzYTIwOGI2NGY5NjFiMzBjZWI2OTg3ZWNiNzBjNWM2MGU2YyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Kut9D9mJPAhtyMTiMxXkINHexStkPY6xd5901NOeKXo)
+
+https://prnt.sc/HTAjRS8yM9ab
         
 
 ## 🔌 Borne table
@@ -63,6 +65,8 @@ Cela permettra d'allimenter la page /borne/all ou on trouvera toutes les informa
 Voici un exemple de la table bornes :
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247542616-f227d968-2d87-4172-9db4-d8a252e70296.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzQ5OTQxLCJuYmYiOjE2ODczNDk2NDEsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0MjYxNi1mMjI3ZDk2OC0yZDg3LTQxNzItOWRiNC1kOGEyNTJlNzAyOTYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIxNDAxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MWIxMzkzYzVhNGEwYTY5OGZhMTU2MmY1YWQwYzYzYzg3M2Y4MzhiYmJkY2QwNjY5YzAyYjFmNzI2Mjg0ODVjZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.XJiuPXvCSffnf4T-bTo0fDlBJ_1bDaYek0od4Vu5Rhw)
+
+https://prnt.sc/btTnG-TEpemj
         
 ## 📝  Log table
 
@@ -141,6 +145,8 @@ Image et code si tu veut clear la base :
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247547086-9f168d66-5bee-4d3e-88da-a7730f069726.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwOTgwLCJuYmYiOjE2ODczNTA2ODAsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NzA4Ni05ZjE2OGQ2Ni01YmVlLTRkM2UtODhkYS1hNzczMGYwNjk3MjYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIzMTIwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MGQwMWQ1ZWQzZGQ4YjQwOTk0ZDBlNDFkMjkwYjU2ZTk2OWYyMDgyNzVjNzVmZTgyZjZiOTU5MjM5YjM0NzJkYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.UaMD0Y-FvPDJKGNc2qCZ1ORw6JOkHGVhXQ7y0Ik1yLg)
 
+https://prnt.sc/5NYd8oaV48VQ
+
 - borne_id, c'est tous simplement l'id de la borne ou il y'a ue une modification, cela permet de voir qu'elle borne est libre ...
 - debutfin, comme au dessus (" qui indique si c'es le debut ou la fin de la charge, si c'est debut cela veut dire qu'elle charge puis si c'est Fin alors c'est que la charge est fini")
 - Le reste c'est egalement la meme chose que dans bornes
@@ -150,6 +156,8 @@ Image et code si tu veut clear la base :
 Voici un exemple de la table Log :
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247544598-124be901-732a-467f-a4eb-562ebc3df0fc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwMzgzLCJuYmYiOjE2ODczNTAwODMsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NDU5OC0xMjRiZTkwMS03MzJhLTQ2N2YtYTRlYi01NjJlYmMzZGYwZmMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIyMTIzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmVlOTVmNTI1MmUzNGJlZWVlMmMwZjFjMWJmYjBmNmRkYTBjOThiMzhhZDA4YjlmN2NjNmIyZTFhODgzZDllZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.eergRQJhaKHU1hPGkXTnUDqhRHY4xWafRjnHntyhP68)
+
+https://prnt.sc/PqMrGwK-_yzK
         
 
 ## 📚 Présentation complete src
@@ -157,6 +165,8 @@ Voici un exemple de la table Log :
 Nous avous une présentation comme celle ci : 
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247553679-fd2ec8ce-38cf-43cd-b129-559aa99d5837.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUyMzE0LCJuYmYiOjE2ODczNTIwMTQsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU1MzY3OS1mZDJlYzhjZS0zOGNmLTQzY2QtYjEyOS01NTlhYTk5ZDU4MzcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTI1MzM0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWM1NDllZGJjM2FkMWZmNWFiOTFmMmZjMTU4NDRlMjlkMmQ5YzM3OTViYTk3YjRjMmU4OWFiOGNmNmRhYTJlOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.p87e6Fe0CmGwGxx85Nhb4rBYLk7wRpl411rykWqd7XA)
+
+https://prnt.sc/08s0pjtmVsgR
         
 - Voyons donc Archive celui ci ce sont juste des codes que j'ai utiliser avant et que j'ai garder au cas ou je devais recuperer des infos pour améliorer le code ou reprendre une version précedente.
 
@@ -208,6 +218,8 @@ http://localhost:8080/index.html
 
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247554929-0ff7f85f-00d1-4b52-bb19-bb810af56554.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUyNjE1LCJuYmYiOjE2ODczNTIzMTUsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU1NDkyOS0wZmY3Zjg1Zi0wMGQxLTRiNTItYmIxOS1iYjgxMGFmNTY1NTQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTI1ODM1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTZkYTcyMWNjZjM2NDJlNGIwMWU0YWYyMjk1NDFmYWVlYWQ4MTAxMmE2YzFkZDhhMWFmNTM5ZmI2NjYyMWZhNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.oZaNELpZxUgqeV_7weIBnrOjDwxZe8MnSDzZvy_TChA)
+
+https://prnt.sc/VFAB2Mcbdfru
         
 <br>
 http://localhost:8080/borne/all
