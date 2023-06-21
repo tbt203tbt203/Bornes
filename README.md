@@ -43,6 +43,8 @@ Pour expliquer la table, nous avons 4 colones :
 
 Pour expliquer d'ou viennent ces informations on les retrouvent dans la page html suivante AjoutUtilisateur.html car c'est elle qui va permettre la création des utilisateurs
 
+Voici un exemple de la table utilisateur :
+
 ![Image](https://private-user-images.githubusercontent.com/137182634/247544596-3140d70b-3790-4a06-ab39-dd99a67ec9b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwMzgzLCJuYmYiOjE2ODczNTAwODMsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NDU5Ni0zMTQwZDcwYi0zNzkwLTRhMDYtYWIzOS1kZDk5YTY3ZWM5YjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIyMTIzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjUyODk1YzNkMzQ3ODU0OTI4OWVlOWJlNDRkMTIzYTIwOGI2NGY5NjFiMzBjZWI2OTg3ZWNiNzBjNWM2MGU2YyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Kut9D9mJPAhtyMTiMxXkINHexStkPY6xd5901NOeKXo)
         
 
@@ -57,6 +59,8 @@ La table Borne est très simple à comprendre, elle est composer de 5 colones
 
 Cette table est entierement fournie grace à la page BorneService, la ou toutes les informations vont etre prélever et redistribué dans les différents codes du BorneController.
 Cela permettra d'allimenter la page /borne/all ou on trouvera toutes les informations en temps reel des bornes.
+
+Voici un exemple de la table bornes :
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247542616-f227d968-2d87-4172-9db4-d8a252e70296.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzQ5OTQxLCJuYmYiOjE2ODczNDk2NDEsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0MjYxNi1mMjI3ZDk2OC0yZDg3LTQxNzItOWRiNC1kOGEyNTJlNzAyOTYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIxNDAxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MWIxMzkzYzVhNGEwYTY5OGZhMTU2MmY1YWQwYzYzYzg3M2Y4MzhiYmJkY2QwNjY5YzAyYjFmNzI2Mjg0ODVjZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.XJiuPXvCSffnf4T-bTo0fDlBJ_1bDaYek0od4Vu5Rhw)
         
