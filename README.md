@@ -12,13 +12,13 @@ Création d'un mini site basique qui est relier au code java qui exploite l'API.
 - La personne qui l'utilise
 - Depuis combien de temps elle est en charge
 - La puissance distribuée actuellement en Wh
-- La puissance totale distribué depuis le début de la charge (pour ensuite savoir approximativement sont pourcentage de charge)<br>
+- La puissance totale distribué depuis le début de la charge (pour ensuite savoir approximativement sont pourcentage de charge)<br><br>
  Ensuite Il y'a la partie utilisateur : 
 - Se mettre en attente
 - S'enlever de l'attente
 - Regardez les utilisateurs en attente
-- Ajouter un nouvel utilisateur
-
+- Ajouter un nouvel utilisateur<br>
+Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java qui permet de faire des redirections et de modifier la table Utilisateur.
 ## Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
