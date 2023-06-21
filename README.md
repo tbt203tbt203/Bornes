@@ -32,6 +32,17 @@ La création de la table utilisateur permet de relier toutes les pages html ci-d
 
 ## 🔌 Borne table
 
+La table Borne est très simple à comprendre, elle est composer de 5 colones
+- id_borne, qui a est assez comprehensible donc on retrouvera les id 818, 820, 821, 822.
+- heure, qui affiche l'heure ou il y'a eu le dernier changement dans la table
+- debutfin, qui indique si c'es le debut ou la fin de la charge, si c'est debut cela veut dire qu'elle charge puis si c'est Fin alors c'est que la charge est fini
+- utilisateur, indique l'utilisateur connecter actuelement si c'est debut et le pseudo de la derniere personne connecté si c'est Fin
+- libre, si la corne est occupé alors la colone libre = non et inversement
+<br>
+Cette table est entierement fournie grace à la page BorneService, la ou toutes les informations vont etre prélever et redistribué dans les différents codes du BorneController.
+Cela permettra d'allimenter la page /borne/all ou on trouvera toutes les informations en temps reel des bornes.
+
+## 📝  Log table
 
 ## ☀ Récap
 - Appel API 
