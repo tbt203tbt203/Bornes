@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire</title>
+</head>
+<body>
+<form action="/borne/enleverAttente" method="get">
+  <label for="enleverAttenteParPseudo">Entrez votre pseudo pour vous mettre en attente : </label>
+  <input type="text" id="enleverAttenteParPseudo" name="enleverAttenteParPseudo" required>
+  <button type="submit">Envoyer</button>
+
+
+</form>
+
+<script>
+  function updateAction() {
+    var statutValue = document.getElementById("enleverAttenteParPseudo").value;
+    statutValue = statutValue.toLowerCase();  // Convertir en minuscules
+    document.getElementById("statutForm").action = "http://localhost:8080/borne/statut/" + statutValue;
+  }
+</script>
+
+</body>
+</html>

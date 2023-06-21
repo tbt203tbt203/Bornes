@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voir le statut</title>
+</head>
+<body>
+<p>Permet de voir qui est en attente si vous marquez "attente" !</p>
+<form id="statutForm" method="get">
+    <label for="statut">Statut :</label>
+    <input type="text" id="statut" name="statut"><br><br>
+    <input type="submit" value="Voir" onclick="updateAction()">
+
+</form>
+
+
+<script>
+    function updateAction() {
+        var statutValue = document.getElementById("statut").value;
+        statutValue = statutValue.toLowerCase();  // Convertir en minuscules
+        document.getElementById("statutForm").action = "http://localhost:8080/borne/statut/" + statutValue;
+    }
+</script>
+
+
+</body>
+</html>

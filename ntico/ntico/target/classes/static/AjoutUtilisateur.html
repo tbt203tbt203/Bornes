@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter un utilisateur</title>
+</head>
+<body>
+<h1>Ajouter un utilisateur</h1>
+<form action="/borne/create/utilisateur" method="post" onsubmit="convertFormToLowerCase()">
+    <label for="email">Email :</label>
+    <input type="text" id="email" name="email"><br><br>
+
+    <label for="pseudo">Pseudo :</label>
+    <input type="text" id="pseudo" name="pseudo"><br><br>
+
+    <label for="statut">Statut :</label>
+    <input type="text" id="statut" name="statut"><br><br>
+
+    <input type="submit" value="Enregistrer">
+</form>
+
+
+<script>
+    function convertFormToLowerCase() {
+        var emailField = document.getElementById("email");
+        emailField.value = emailField.value.toLowerCase();
+
+        var pseudoField = document.getElementById("pseudo");
+        pseudoField.value = pseudoField.value.toLowerCase();
+
+        var statutField = document.getElementById("statut");
+        statutField.value = statutField.value.toLowerCase();
+    }
+</script>
+
+</body>
+</html>

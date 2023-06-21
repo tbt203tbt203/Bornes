@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acceuil</title>
+</head>
+<body>
+<h1>Acceuil</h1>
+
+
+<form>
+
+
+    <p>Statut des bornes.</p>
+    <button type="submit" formaction="/borne/all">
+        Bornes
+    </button>
+
+    <p>Se mettre en attente.</p>
+    <button type="submit" formaction="http://localhost:8080/StatutAttente.html">
+        Statut
+    </button>
+
+    <p>S'enlever de l'attente.</p>
+    <button type="submit" formaction="http://localhost:8080/StatutNOAttente.html">
+        Statut
+    </button>
+
+    <p>Regardez les utilisateurs en attente.</p>
+    <button type="submit" formaction="/borne/statut">
+        Statut
+    </button>
+
+    <p>Ajouter un nouvel utilisateur.</p>
+    <button type="submit" formaction="http://localhost:8080/AjoutUtilisateur.html">
+        Ajouter
+    </button>
+
+
+</form>
+</body>
+</html>
