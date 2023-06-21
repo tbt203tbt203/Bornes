@@ -15,7 +15,6 @@ La premiere, c'est l'information des bornes en temps reel (30s) :
 - La puissance distribuée actuellement en Wh
 - La puissance totale distribué depuis le début de la charge (pour ensuite savoir approximativement sont pourcentage de charge)<br><br>
  Ensuite Il y'a la partie utilisateur : 
-
 - Se mettre en attente
 - S'enlever de l'attente
 - Regardez les utilisateurs en attente
