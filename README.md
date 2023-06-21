@@ -183,6 +183,61 @@ Ici l'exemple avec le code de la table Log :
 ```
         
 
+<h4><b>- service, regroupe l'ensemble du code qui n'a pas de refresh de sql ou de relations avec d'autres pages. Il est composer de 8 fichier java et 1 9 eme LogService que je n'ai pas eu le temps de faire donc le code est toujours dans BornesCoontrolller.
+<br></h4></b>
+- Borne, premiere page de cration de la table bone elle est composer a 100% de la création des colones
+
+
+
+```java
+ @Id
+    @Column(name = "id_borne")
+    private Long idBorne;
+
+    @Column(name = "utilisateur")
+    private String utilisateur;
+
+    @Column(name = "libre")
+    private String utiliser;
+
+    @Column(name = "Heure")
+    private String Heure;
+    // Getters and setters
+    @Column(name = "debutfin")
+    private String df;
+```
+comme ont peut le voir sa crée les colones et id_borne est aussi crée en tant que clé primaire.
+
+- BornesService, c'est la ou le code principale ce trouve, avec la requette api et ont peut egalement appercevoir ceci : 
+
+
+```java
+public static String getBorne(String borneNumber) throws IOException {
+        try {
+            URL url = new URL("https://api.charge.re/public/1/chargecontroller/"+ borneNumber +"/?format=json");
+           
+```
+ce que l'on voit, c'est que nous ne marqu'on plus le numero de la borne mais que sa sera fait directement dans le controller pour ne pas avoir un code qui se repete 4 fois.
+Ensuite, nous remarqu'on que le code est séparer en deux, dans la premiere partie, ont peut voir que si la borne indique que active charge = null alors afficher oui (librte = oui)
+sinon faire le code qui est en dessous.
+
+
+```java
+if (jsonResponse.contains("\"active_charge\":")) {
+                int startIndex = jsonResponse.indexOf("\"active_charge\":") + "\"active_charge\":".length();
+                int endIndex = jsonResponse.indexOf(",", startIndex);
+                if (endIndex == -1) {
+                    endIndex = jsonResponse.indexOf("}", startIndex);
+                }
+                String activeChargeValue = jsonResponse.substring(startIndex, endIndex).trim();
+                if (activeChargeValue.equals("null")) {
+                    isActiveCharge = "Oui";
+                }else{
+```
+        
+        
+        
+
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
@@ -226,4 +281,5 @@ https://prnt.sc/VFAB2Mcbdfru
 http://localhost:8080/borne/all
 
 https://prnt.sc/TA32xp_i2RhN
+
         
