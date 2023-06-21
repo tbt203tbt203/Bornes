@@ -91,7 +91,11 @@ Voici un exemple de la table Log :
 
 ## 📚 Présentation complete src
 
+Nous avous une présentation comme celle ci : 
 
+![Image](https://private-user-images.githubusercontent.com/137182634/247553679-fd2ec8ce-38cf-43cd-b129-559aa99d5837.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUyMzE0LCJuYmYiOjE2ODczNTIwMTQsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU1MzY3OS1mZDJlYzhjZS0zOGNmLTQzY2QtYjEyOS01NTlhYTk5ZDU4MzcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTI1MzM0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWM1NDllZGJjM2FkMWZmNWFiOTFmMmZjMTU4NDRlMjlkMmQ5YzM3OTViYTk3YjRjMmU4OWFiOGNmNmRhYTJlOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.p87e6Fe0CmGwGxx85Nhb4rBYLk7wRpl411rykWqd7XA)
+        
+Nous voyons donc 
 
  
 
@@ -123,6 +127,9 @@ http://api.charge.re/public/1/chargecontroller/822
 - Intelij Idea 2023.1.1 (full code)
 - Dbeaver (test sql)
 
+## 🔦 Liens internes a utiliser
 
+http://localhost:8080/borne/all
+http://localhost:8080/index.html
 
         
