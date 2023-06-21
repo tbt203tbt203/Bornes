@@ -17,8 +17,8 @@ La premiere, c'est l'information des bornes en temps reel (30s) :
 Ensuite Il y'a la partie utilisateur : 
 - Se mettre en attente (StatutAttente.html)
 - S'enlever de l'attente (StatutNOAttente.html)
-- Regardez les utilisateurs en attente(Statut.html)
-- Ajouter un nouvel utilisateur (AjoutUtilisateur.html), (Renvoie sur Merci.html qui demande si on crée un new utilisateur / si on retourne aux bornes ou à l'acceuil)<br>
+- Regardez les utilisateurs en attente (Statut.html)
+- Ajouter un nouvel utilisateur (AjoutUtilisateur.html), (Renvoie sur Merci.html qui demande si on crée un new utilisateur / si on retourne aux bornes ou à l'acceuil)<br><br>
 Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java qui permet de faire des redirections et de modifier la table Utilisateur.
 ## Récap
 - Appel API 
@@ -44,5 +44,12 @@ http://api.charge.re/public/1/chargecontroller/822
 
 
     
+    
 
+
+
+        
+        
+        
+    
     
