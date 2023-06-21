@@ -14,7 +14,7 @@ La premiere, c'est l'information des bornes en temps reel (30s) :
 - Depuis combien de temps elle est en charge
 - La puissance distribuée actuellement en Wh
 - La puissance totale distribué depuis le début de la charge (pour ensuite savoir approximativement sont pourcentage de charge)<br><br>
- Ensuite Il y'a la partie utilisateur : 
+Ensuite Il y'a la partie utilisateur : 
 - Se mettre en attente
 - S'enlever de l'attente
 - Regardez les utilisateurs en attente
@@ -24,3 +24,24 @@ Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
 - Relation entre : HTML / Tables / Code JAVA
+
+## 🛠️ Liens des Bornes (API)
+[Voir le park de Ntico](http://api.charge.re/public/1/parks/224)
+- Lien : http://api.charge.re/public/1/parks/224
+<br>
+[Borne 818](http://api.charge.re/public/1/chargecontroller/818)
+- Lien : http://api.charge.re/public/1/chargecontroller/818
+<br>
+[Borne 820](http://api.charge.re/public/1/chargecontroller/820)
+- Lien : http://api.charge.re/public/1/chargecontroller/820
+<br>
+[Borne 821](http://api.charge.re/public/1/chargecontroller/821)
+- Lien : http://api.charge.re/public/1/chargecontroller/821
+<br>
+[Borne 822](http://api.charge.re/public/1/chargecontroller/822)
+- Lien : http://api.charge.re/public/1/chargecontroller/822
+
+    
+    
+    
+    
