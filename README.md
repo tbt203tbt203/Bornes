@@ -21,7 +21,7 @@ Ensuite Il y'a la partie utilisateur :
 - Ajouter un nouvel utilisateur (AjoutUtilisateur.html), (Renvoie sur Merci.html qui demande si on crée un new utilisateur / si on retourne aux bornes ou à l'acceuil)<br><br>
 Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java qui permet de faire des redirections et de modifier la table Utilisateur.
 <br>
-<br>
+## 👶 Utilisateur table
 La création de la table utilisateur permet de relier toutes les pages html ci-dessus:
 
 - Statut.html, savoir qui est en attente. Cependant elle renvoie un JSON. 
@@ -31,7 +31,7 @@ La création de la table utilisateur permet de relier toutes les pages html ci-d
 
 
 
-## Récap
+## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
 - Relation entre : HTML / Tables / Code JAVA
