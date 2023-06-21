@@ -71,12 +71,73 @@ La table log est composer de 7 colones en effet il y'en a une "ancienne_valeur q
 - id, colone basique qui sur mon screen est un peut buggé en effet quand ont reset la base il faut enlever des morceaux du code pour que sa crée les lignes correctement mais des que tous les début sont présents alors remettre le morceau de code je n'ai pas trouver d'alternative je montre les 2 screens(BornesController) :
 
 <br>
-Image avant modif :
+Code avant modif :
 
-![Image](https://private-user-images.githubusercontent.com/137182634/247547077-50b05492-5922-4042-8578-e8a3f8a1df8e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwOTgwLCJuYmYiOjE2ODczNTA2ODAsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NzA3Ny01MGIwNTQ5Mi01OTIyLTQwNDItODU3OC1lOGEzZjhhMWRmOGUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIzMTIwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9N2NhYTVmNTg0MGY3OTI1YWNlOWQ0N2I2OGMyYjU1MzIzMTE0OGI3ZWUyMjk2OTliZWJlNjg1MjkwMDQ5NmMwYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.eNAUjSu9BS2t0MBN1mA0dRXyKOqZnxNDf4bad2g3pKM)
+```java
+ if (oldBornes.getUtiliser() == null || !oldBornes.getUtiliser().equals(Libre)) {
+
+                    if (Libre != null && Libre.equals("non")) { //Libre.equals("non")
+                        Log log = createLogEntry(borneId, oldBornes.getUtiliser(), BorneHeure, Username, debutfin, Libre);
+                        logRepository.save(log);
+                        oldBornes.setUtiliser(Libre);
+                        oldBornes.setDf(debutfin);
+                        oldBornes.setHeure(BorneHeure);
+                    }
+
+                    if(oldBornes.getUtiliser() != null || oldBornes.getUtiliser().equals(Libre)){
+
+                        LocalDateTime dateTimeActuelle = LocalDateTime.now();
+                        DateTimeFormatter formatteur = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+                        String dateTimeFormatee = dateTimeActuelle.format(formatteur);
+                        oldBornes.setHeure(dateTimeFormatee);
+
+                        String pseudo = logRepository.findBybornes(borneId).get(0).getPseudo();
+                        oldBornes.setUtilisateur(pseudo);
+
+                        Log log = createLogEntry(borneId, oldBornes.getUtiliser(), dateTimeFormatee, pseudo, debutfin, Libre);
+                        logRepository.save(log);
+                        oldBornes.setUtiliser(Libre);
+                        oldBornes.setDf(debutfin);
+                    }
+
+
+                }
+```
         
-Image si tu veut clear la base : 
+        
+Image et code si tu veut clear la base : 
 
+```java
+ if (oldBornes.getUtiliser() == null || !oldBornes.getUtiliser().equals(Libre)) {
+
+                    if (Libre != null /* && Libre.equals("non")*/) { //Libre.equals("non")
+                        Log log = createLogEntry(borneId, oldBornes.getUtiliser(), BorneHeure, Username, debutfin, Libre);
+                        logRepository.save(log);
+                        oldBornes.setUtiliser(Libre);
+                        oldBornes.setDf(debutfin);
+                        oldBornes.setHeure(BorneHeure);
+                    }
+
+               /*     if(oldBornes.getUtiliser() != null || oldBornes.getUtiliser().equals(Libre)){
+
+                        LocalDateTime dateTimeActuelle = LocalDateTime.now();
+                        DateTimeFormatter formatteur = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+                        String dateTimeFormatee = dateTimeActuelle.format(formatteur);
+                        oldBornes.setHeure(dateTimeFormatee);
+
+                        String pseudo = logRepository.findBybornes(borneId).get(0).getPseudo();
+                        oldBornes.setUtilisateur(pseudo);
+
+                        Log log = createLogEntry(borneId, oldBornes.getUtiliser(), dateTimeFormatee, pseudo, debutfin, Libre);
+                        logRepository.save(log);
+                        oldBornes.setUtiliser(Libre);
+                        oldBornes.setDf(debutfin);
+                    }*/
+
+
+                }
+```
+        
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247547086-9f168d66-5bee-4d3e-88da-a7730f069726.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwOTgwLCJuYmYiOjE2ODczNTA2ODAsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NzA4Ni05ZjE2OGQ2Ni01YmVlLTRkM2UtODhkYS1hNzczMGYwNjk3MjYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIzMTIwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MGQwMWQ1ZWQzZGQ4YjQwOTk0ZDBlNDFkMjkwYjU2ZTk2OWYyMDgyNzVjNzVmZTgyZjZiOTU5MjM5YjM0NzJkYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.UaMD0Y-FvPDJKGNc2qCZ1ORw6JOkHGVhXQ7y0Ik1yLg)
 
@@ -102,9 +163,15 @@ Nous avous une présentation comme celle ci :
 - config, ici il y'a les 2 codes pour l'actualisation toutes les 30 secondes de l'appel sur l'API de Rossini.
 - controller, dans ce dossier nous avons BornesController qui est la base même de notre API car c'est lui qui va crée la relation entre le code dur JAVA et une page affichable soit en html soit aussi par du GETMAPPING qui va crée des redirections  comme celle ci par ex : http://localhost:8080/borne/all
 avec des /.../... 
-
-
+- repository, ce fichier est très important pour notre pas e donnée postgres car ce sont c'est fichier qui font la relations entre le sql et le java, c'est ici que l'on va récupérer, modifier ou supprimer des infos dans la base et dans les différentes tables.
+Ici l'exemple avec le code de la table Log :
  
+
+```java
+    @Query(nativeQuery = true, value = "SELECT * FROM log WHERE borne_id = CAST(:borne_id AS VARCHAR) AND pseudo <> 'nul' ORDER BY id DESC LIMIT 1")
+    ArrayList<Log> findBybornes(String borne_id);
+```
+        
 
 ## ☀ Récap
 - Appel API 
