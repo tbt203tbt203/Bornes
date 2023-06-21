@@ -1,4 +1,4 @@
-# <p align="center">Bornes Ntico</p>
+# <p align="center">Bornes Ntico 🏎️</p>
   
 Création d'une API qui récupere les informations des bornes de voitures électrique, depuis l'API de chez Rossini Energy. Elles se trouvent devant chez Ntico V2.
 
@@ -30,6 +30,7 @@ La création de la table utilisateur permet de relier toutes les pages html ci-d
 -  StatutNOAttente.html, permet de s'enlever de l'attente grace à son pseudo.
 - AjoutUtilisateur.html, permet de crée un nouvel utilisateur et renvoie sur la page Merci.html expliquer au dessus.
 
+## 🔌 Borne table
 
 
 ## ☀ Récap
