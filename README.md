@@ -129,8 +129,14 @@ http://api.charge.re/public/1/chargecontroller/822
 
 ## 🔦 Liens internes a utiliser
 
-http://localhost:8080/borne/all
-<br>
+
 http://localhost:8080/index.html
+
+
+![Image](https://private-user-images.githubusercontent.com/137182634/247554929-0ff7f85f-00d1-4b52-bb19-bb810af56554.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUyNjE1LCJuYmYiOjE2ODczNTIzMTUsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU1NDkyOS0wZmY3Zjg1Zi0wMGQxLTRiNTItYmIxOS1iYjgxMGFmNTY1NTQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTI1ODM1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTZkYTcyMWNjZjM2NDJlNGIwMWU0YWYyMjk1NDFmYWVlYWQ4MTAxMmE2YzFkZDhhMWFmNTM5ZmI2NjYyMWZhNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.oZaNELpZxUgqeV_7weIBnrOjDwxZe8MnSDzZvy_TChA)
+        
+<br>
+http://localhost:8080/borne/all
+
 
         
