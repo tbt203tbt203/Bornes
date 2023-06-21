@@ -73,5 +73,5 @@ http://api.charge.re/public/1/chargecontroller/822
 - Dbeaver (test sql)
 
 
-![Image](https://prnt.sc/mW3zjskXJ61z)
+![Image](https://prnt.sc/Y5S_V1Mmscx0)
         
