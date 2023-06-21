@@ -1,6 +1,6 @@
 # <p align="center">Bornes Ntico 🏎️</p>
   
-Création d'une API qui récupere les informations des bornes de voitures électrique, depuis l'API de chez Rossini Energy. Elles se trouvent devant chez Ntico V2.
+Création d'une API qui récupere les informations des bornes de voitures électrique, depuis l'API de chez Rossini Energy.
 
 ## 🧐 Présentation (API Ntico)
 Appel de l'API de chez Rossini Energy, refresh toutes les 30 secondes pour mettre à jour les informations, pour pouvoir les exploiter.<br>
