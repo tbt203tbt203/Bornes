@@ -21,6 +21,12 @@ Ensuite Il y'a la partie utilisateur :
 - Ajouter un nouvel utilisateur (AjoutUtilisateur.html), (Renvoie sur Merci.html qui demande si on crée un new utilisateur / si on retourne aux bornes ou à l'acceuil)<br><br>
 Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java qui permet de faire des redirections et de modifier la table Utilisateur.
 
+Les pages java qui permettent d'avoir le rafrechissement toutes les 30 secondes sont les suivantes : 
+ScheduledFixedRateExample,
+SchedulerConfig
+
+Dans ScheduledFixedRateExample la premiere "response" permet de refresh la table bornes que l'on va voir juste après. Et le "response8" permet de refresh la table Log en rapport à celle bornes car elles sont reliser.
+
 ## 👶 Utilisateur table
 
 La création de la table utilisateur permet de relier toutes les pages html ci-dessus:
@@ -28,7 +34,14 @@ La création de la table utilisateur permet de relier toutes les pages html ci-d
 - Statut.html, savoir qui est en attente. Cependant elle renvoie un JSON. 
 - StatutAttente.html, permet grace à son pseudo de se mettre en attente.
 -  StatutNOAttente.html, permet de s'enlever de l'attente grace à son pseudo.
-- AjoutUtilisateur.html, permet de crée un nouvel utilisateur et renvoie sur la page Merci.html expliquer au dessus.
+- AjoutUtilisateur.html, permet de crée un nouvel utilisateur et renvoie sur la page Merci.html expliquer au dessus.<br><br>
+Pour expliquer la table, nous avons 4 colones :
+- id, pour avoir la clé primaire et elle n'est pas vraiment a expliquer
+- email, pour avoir l'email de a personne qui c'est enregistrer 
+- pseudo, pour avoir le pseudo enregistrer et il est important pour la modif du statut en attente
+- statut, attente ou null simple a comprendre et a modifier grace a StatutAttente.html et StatutNOAttente.html<br>
+
+Pour expliquer d'ou viennent ces informations on les retrouvent dans la page html suivante AjoutUtilisateur.html car c'est elle qui va permettre la création des utilisateurs
 
 ## 🔌 Borne table
 
