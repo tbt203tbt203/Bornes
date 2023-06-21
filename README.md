@@ -72,6 +72,3 @@ http://api.charge.re/public/1/chargecontroller/822
 - Intelij Idea 2023.1.1 (full code)
 - Dbeaver (test sql)
 
-
-![Image](https://prnt.sc/Y5S_V1Mmscx0)
-        
