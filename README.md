@@ -38,7 +38,7 @@ La table Borne est très simple à comprendre, elle est composer de 5 colones
 - debutfin, qui indique si c'es le debut ou la fin de la charge, si c'est debut cela veut dire qu'elle charge puis si c'est Fin alors c'est que la charge est fini
 - utilisateur, indique l'utilisateur connecter actuelement si c'est debut et le pseudo de la derniere personne connecté si c'est Fin
 - libre, si la corne est occupé alors la colone libre = non et inversement
-<br>
+
 Cette table est entierement fournie grace à la page BorneService, la ou toutes les informations vont etre prélever et redistribué dans les différents codes du BorneController.
 Cela permettra d'allimenter la page /borne/all ou on trouvera toutes les informations en temps reel des bornes.
 
@@ -49,7 +49,7 @@ Cela permettra d'allimenter la page /borne/all ou on trouvera toutes les informa
 - Création tables : Log / Bornes / Utilisateur
 - Relation entre : HTML / Tables / Code JAVA
 
-## 🛠️ Liens des Bornes (API)
+## 🛠️ Liens des Bornes (API Rossini)
 [Voir le park de Ntico](http://api.charge.re/public/1/parks/224) <br>
 http://api.charge.re/public/1/parks/224
 <br>
@@ -66,14 +66,8 @@ http://api.charge.re/public/1/chargecontroller/821
 <br>
 http://api.charge.re/public/1/chargecontroller/822
 
-
-    
-    
-
-
-
-        
-        
-        
-    
-    
+## 🗂️ Logiciels utilisé
+- Initializr spring (création de l'API Ntico)
+- Docker Desktop (base de donnée postgres)
+- Intelij Idea 2023.1.1 (full code)
+- Dbeaver (test sql)
