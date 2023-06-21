@@ -20,6 +20,17 @@ Ensuite Il y'a la partie utilisateur :
 - Regardez les utilisateurs en attente (Statut.html)
 - Ajouter un nouvel utilisateur (AjoutUtilisateur.html), (Renvoie sur Merci.html qui demande si on crée un new utilisateur / si on retourne aux bornes ou à l'acceuil)<br><br>
 Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java qui permet de faire des redirections et de modifier la table Utilisateur.
+<br>
+<br>
+La création de la table utilisateur permet de relier toutes les pages html ci-dessus:
+
+- Statut.html, savoir qui est en attente. Cependant elle renvoie un JSON. 
+- StatutAttente.html, permet grace à son pseudo de se mettre en attente.
+-  StatutNOAttente.html, permet de s'enlever de l'attente grace à son pseudo.
+- AjoutUtilisateur.html, permet de crée un nouvel utilisateur et renvoie sur la page Merci.html expliquer au dessus.
+
+
+
 ## Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
