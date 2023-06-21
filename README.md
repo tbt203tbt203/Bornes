@@ -163,7 +163,7 @@ Nous avous une présentation comme celle ci :
 - config, ici il y'a les 2 codes pour l'actualisation toutes les 30 secondes de l'appel sur l'API de Rossini.
 - controller, dans ce dossier nous avons BornesController qui est la base même de notre API car c'est lui qui va crée la relation entre le code dur JAVA et une page affichable soit en html soit aussi par du GETMAPPING qui va crée des redirections  comme celle ci par ex : http://localhost:8080/borne/all
 avec des /.../... 
-- repository, ce fichier est très important pour notre pas e donnée postgres car ce sont c'est fichier qui font la relations entre le sql et le java, c'est ici que l'on va récupérer, modifier ou supprimer des infos dans la base et dans les différentes tables.
+- repository, ce fichier est très important pour notre base de données postgres car ce sont c'est fichier qui font la relations entre le sql et le java, c'est ici que l'on va récupérer, modifier ou supprimer des infos dans la base et dans les différentes tables.
 Ici l'exemple avec le code de la table Log :
  
 
