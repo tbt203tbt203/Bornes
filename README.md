@@ -29,14 +29,18 @@ Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java
 [Voir le park de Ntico](http://api.charge.re/public/1/parks/224) <br>
 http://api.charge.re/public/1/parks/224
 <br>
-[Borne 818](http://api.charge.re/public/1/chargecontroller/818)
+[Borne 818](http://api.charge.re/public/1/chargecontroller/818)<br>
+http://api.charge.re/public/1/chargecontroller/818
 <br>
-[Borne 820](http://api.charge.re/public/1/chargecontroller/820)
+[Borne 820](http://api.charge.re/public/1/chargecontroller/820)<br>
+http://api.charge.re/public/1/chargecontroller/820
 <br>
-[Borne 821](http://api.charge.re/public/1/chargecontroller/821)
+[Borne 821](http://api.charge.re/public/1/chargecontroller/821)<br>
+http://api.charge.re/public/1/chargecontroller/821
 <br>
 [Borne 822](http://api.charge.re/public/1/chargecontroller/822)
 <br>
+http://api.charge.re/public/1/chargecontroller/822
 
 
     
