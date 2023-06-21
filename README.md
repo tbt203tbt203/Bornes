@@ -67,14 +67,18 @@ La table log est composer de 7 colones en effet il y'en a une "ancienne_valeur q
 - id, colone basique qui sur mon screen est un peut buggé en effet quand ont reset la base il faut enlever des morceaux du code pour que sa crée les lignes correctement mais des que tous les début sont présents alors remettre le morceau de code je n'ai pas trouver d'alternative je montre les 2 screens(BornesController) :
 
 <br>
-Image avant modif
+Image avant modif :
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247547077-50b05492-5922-4042-8578-e8a3f8a1df8e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwOTgwLCJuYmYiOjE2ODczNTA2ODAsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NzA3Ny01MGIwNTQ5Mi01OTIyLTQwNDItODU3OC1lOGEzZjhhMWRmOGUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIzMTIwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9N2NhYTVmNTg0MGY3OTI1YWNlOWQ0N2I2OGMyYjU1MzIzMTE0OGI3ZWUyMjk2OTliZWJlNjg1MjkwMDQ5NmMwYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.eNAUjSu9BS2t0MBN1mA0dRXyKOqZnxNDf4bad2g3pKM)
         
-Image si tu veut clear la base
+Image si tu veut clear la base : 
 
 
 ![Image](https://private-user-images.githubusercontent.com/137182634/247547086-9f168d66-5bee-4d3e-88da-a7730f069726.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwOTgwLCJuYmYiOjE2ODczNTA2ODAsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NzA4Ni05ZjE2OGQ2Ni01YmVlLTRkM2UtODhkYS1hNzczMGYwNjk3MjYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIzMTIwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MGQwMWQ1ZWQzZGQ4YjQwOTk0ZDBlNDFkMjkwYjU2ZTk2OWYyMDgyNzVjNzVmZTgyZjZiOTU5MjM5YjM0NzJkYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.UaMD0Y-FvPDJKGNc2qCZ1ORw6JOkHGVhXQ7y0Ik1yLg)
+
+- borne_id, c'est tous simplement l'id de la borne ou il y'a ue une modification, cela permet de voir qu'elle borne est libre ...
+- debutfin, comme au dessus (" qui indique si c'es le debut ou la fin de la charge, si c'est debut cela veut dire qu'elle charge puis si c'est Fin alors c'est que la charge est fini")
+- Le reste c'est egalement la meme chose que dans bornes
         
 Voici un exemple de la table Log :
 
