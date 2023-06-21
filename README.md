@@ -26,7 +26,8 @@ Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java
 - Relation entre : HTML / Tables / Code JAVA
 
 ## 🛠️ Liens des Bornes (API)
-[Voir le park de Ntico](http://api.charge.re/public/1/parks/224) http://api.charge.re/public/1/parks/224
+[Voir le park de Ntico](http://api.charge.re/public/1/parks/224) <br>
+http://api.charge.re/public/1/parks/224
 <br>
 [Borne 818](http://api.charge.re/public/1/chargecontroller/818)
 <br>
