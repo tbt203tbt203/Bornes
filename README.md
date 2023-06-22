@@ -47,10 +47,8 @@ Pour expliquer d'ou viennent ces informations on les retrouvent dans la page htm
 
 Voici un exemple de la table utilisateur :
 
-![Image](https://private-user-images.githubusercontent.com/137182634/247544596-3140d70b-3790-4a06-ab39-dd99a67ec9b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUwMzgzLCJuYmYiOjE2ODczNTAwODMsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0NDU5Ni0zMTQwZDcwYi0zNzkwLTRhMDYtYWIzOS1kZDk5YTY3ZWM5YjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIyMTIzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjUyODk1YzNkMzQ3ODU0OTI4OWVlOWJlNDRkMTIzYTIwOGI2NGY5NjFiMzBjZWI2OTg3ZWNiNzBjNWM2MGU2YyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.Kut9D9mJPAhtyMTiMxXkINHexStkPY6xd5901NOeKXo)
+![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/5896d51e-a6dd-45d0-a13b-9fa737d46262)
 
-https://prnt.sc/HTAjRS8yM9ab
-        
 
 ## 🔌 Borne table
 
@@ -66,10 +64,8 @@ Cela permettra d'allimenter la page /borne/all ou on trouvera toutes les informa
 
 Voici un exemple de la table bornes :
 
-![Image]([https://public-user-images.githubusercontent.com/137182634/247542616-f227d968-2d87-4172-9db4-d8a252e70296.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzQ5OTQxLCJuYmYiOjE2ODczNDk2NDEsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU0MjYxNi1mMjI3ZDk2OC0yZDg3LTQxNzItOWRiNC1kOGEyNTJlNzAyOTYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTIxNDAxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MWIxMzkzYzVhNGEwYTY5OGZhMTU2MmY1YWQwYzYzYzg3M2Y4MzhiYmJkY2QwNjY5YzAyYjFmNzI2Mjg0ODVjZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.XJiuPXvCSffnf4T-bTo0fDlBJ_1bDaYek0od4Vu5Rhw](https://github.com/tbt203tbt203/Bornes/blob/main/bornestable.png?raw=true))
-![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/1ff95fd4-4d8f-41d8-a0c4-db46e200b976)
+![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/195ed0fe-ed79-432f-ada3-bcc7d400c5f7)
 
-https://prnt.sc/btTnG-TEpemj
         
 ## 📝  Log table
 
