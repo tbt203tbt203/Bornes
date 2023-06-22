@@ -173,6 +173,7 @@ https://prnt.sc/08s0pjtmVsgR
 - config, ici il y'a les 2 codes pour l'actualisation toutes les 30 secondes de l'appel sur l'API de Rossini.
 - controller, dans ce dossier nous avons BornesController qui est la base même de notre API car c'est lui qui va crée la relation entre le code dur JAVA et une page affichable soit en html soit aussi par du GETMAPPING qui va crée des redirections  comme celle ci par ex : http://localhost:8080/borne/all
 avec des /.../... 
+<br>Je vais le détailler en dessous.
 - repository, ce fichier est très important pour notre base de données postgres car ce sont c'est fichier qui font la relations entre le sql et le java, c'est ici que l'on va récupérer, modifier ou supprimer des infos dans la base et dans les différentes tables.
 Ici l'exemple avec le code de la table Log :
  
@@ -301,6 +302,11 @@ qui permetra de récuperer le pseudo de la derniere personne connecter sur la bo
 - Utilisateur, Permet de definir les colones dans la table Utilisateur.
 
 -NticoApplication, essentiel dans Spring boot mais je ne l'ai pas fait personnelement
+
+- ressources, déja pas mal expliquer au dessus dans la présentation, je peux juste rajouter, que casi chaques pages a un titre, des bouttons et les pages ou il faut ecrire, il y'a un toLowerCase pour tous mettre en minuscule comme sa il n'y a plus de pb de majuscules ...
+
+## 👨🏽‍💻 BornesController
+
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
@@ -344,5 +350,7 @@ https://prnt.sc/VFAB2Mcbdfru
 http://localhost:8080/borne/all
 
 https://prnt.sc/TA32xp_i2RhN
+
+㊗️
 
         
