@@ -337,6 +337,12 @@ Ensuite on fait des Autowired qui permette d'appeler les autres pages java et de
     private LogRepository logRepository;
 ```
         
+Après ont appel les tables ...
+<br>
+Ensuite ont a des GetMapping ce sont toutes des pages que l'on appel grace au localhost.
+<br>
+Et également les PostMapping, Alors eux sont des pages qui renvoient sur d'autres pages.
+<br>
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
