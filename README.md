@@ -70,10 +70,10 @@ Voici un exemple de la table bornes :
 
 | id_borne| heure| debutfin| utilisateur| libre |
 | :---: | :---: | :---: | :---: | :---: |
-| 820 |  | 2023-06-20 15:01:35 | Fin | Oui |
-| 821 |  2023-06-20 15:01:28| Début | Non | 
-| 822 |  2023-06-20 15:01:54| Fin | attente | Oui |
-| 818 | 2023-06-20 15:01:36 | Début | Non | 
+| 820 |  2023-06-20 15:01:35 | Fin | exemple820 | Oui |
+| 821 |  2023-06-20 15:01:28| Début |exemple821 | Non | 
+| 822 |  2023-06-20 15:01:54| Fin | exemple822 | Oui |
+| 818 | 2023-06-20 15:01:36 | Début |exemple818 | Non | 
 
         
 ## 📝  Log table
