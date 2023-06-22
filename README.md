@@ -149,7 +149,6 @@ Image et code si tu veut clear la base :
 ```
         
 
-![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/69310f59-d617-41d1-926c-394c9c591c0c)
 
 
 - borne_id, c'est tous simplement l'id de la borne où il y a eu une modification, cela permet de voir qu'elle borne est libre ...
