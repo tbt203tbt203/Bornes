@@ -343,6 +343,25 @@ Ensuite ont a des GetMapping ce sont toutes des pages que l'on appel grace au lo
 <br>
 Et également les PostMapping, Alors eux sont des pages qui renvoient sur d'autres pages.
 <br>
+- Le premier     @GetMapping("/all") ligne 55 permet d'afficher la pages ou toutes les bornes sont afficher.
+<br>
+- @GetMapping("/statut") Permet d'afficher la page ou l'on voit le statut en attente des personnes de la table Utilisateur.
+<br>
+- @PostMapping("/create/utilisateur")
+reliser a la page html AjoutUtilisateur.html comme son nom l'indique permet de gererer un nouvel utilisateur pour la table utilisateur.
+<br>
+- @GetMapping("/merci/redirection") redirection pour la page Merci.html.
+<br>
+
+- @PostMapping("/product/all/AjoutUtilisateur") celui ci aussi.
+<br>
+- @GetMapping("/enregistrement/attente") lui aussi.
+<br>
+- @GetMapping("/mettreAttente") permet de ce mettre en attente par le pseudo relier aussi a la page StatutAttente.html
+<br>
+- @GetMapping("/enleverAttente") celui ci c'est la même mais pour s'enlever de l'attente et relier à StatutNOAttente.html
+<br>
+- 
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
