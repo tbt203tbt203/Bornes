@@ -76,12 +76,12 @@ Voici un exemple de la table bornes :
         
 ## 📝  Log table
 
-La table log est composer de 7 colones en effet il y'en a une "ancienne_valeur qui peut etre assez flou je vais expliquer.
+La table log est composer de 7 colonnes en effet, il y en a une "ancienne_valeur" qui peut être assez flou, je vais expliquer.
 
-- id, colone basique qui sur mon screen est un peut buggé en effet quand ont reset la base il faut enlever des morceaux du code pour que sa crée les lignes correctement mais des que tous les début sont présents alors remettre le morceau de code je n'ai pas trouver d'alternative je montre les 2 screens(BornesController) :
+- id, colonne basique qui sur mon screen est un peu bugué en effet quand ont reset la base il faut enlever des morceaux du code pour que ça crée les lignes correctement, mais dès que tous les débuts sont présents alors remettre le morceau de code, je n'ai pas trouvé d'alternative, je montre les 2 screens (BornesController) :
 
 <br>
-Code avant modif :
+Code avant modification :
 
 ```java
  if (oldBornes.getUtiliser() == null || !oldBornes.getUtiliser().equals(Libre)) {
