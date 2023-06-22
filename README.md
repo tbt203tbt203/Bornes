@@ -152,12 +152,12 @@ Image et code si tu veut clear la base :
 ![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/69310f59-d617-41d1-926c-394c9c591c0c)
 
 
-- borne_id, c'est tous simplement l'id de la borne ou il y'a ue une modification, cela permet de voir qu'elle borne est libre ...
-- debutfin, comme au dessus (" qui indique si c'es le debut ou la fin de la charge, si c'est debut cela veut dire qu'elle charge puis si c'est Fin alors c'est que la charge est fini")
-- Le reste c'est egalement la meme chose que dans bornes
+- borne_id, c'est tous simplement l'id de la borne où il y a eu une modification, cela permet de voir qu'elle borne est libre ...
+- debutfin, comme au-dessus (" qui indique si c'es le début ou la fin de la charge, si c'est début cela veut dire qu'elle charge puis si c'est Fin alors c'est que la charge est fini")
+- Le reste, c'est également la même chose que dans bornes
 
-- ancienne_valeur, pour comprendre cette valeur il faut voir que c'est celle ci qui va mettre les informations en fonction de la valeur précedente, je veut dire par la que si la valeure libre = Non et que la personne sur la borne se débranche alors la valeure sera egale à Oui dans ce cas cela créra une nouvelle lignes avec toutes les infos.
-        
+- ancienne_valeur, pour comprendre cette valeur, il faut voir que c'est celle-ci qui va mettre les informations en fonction de la valeur précédente, je veux dire par là que si la valeur libre = Non et que la personne sur la borne se débranche alors la valeur sera égale a Oui dans ce cas cela créa une nouvelle ligne avec toutes les infos.
+
 Voici un exemple de la table Log :
 | id| ancienne_valeur| borne_id | debutfin | heure | libre | pseudo|
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
