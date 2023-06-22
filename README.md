@@ -381,6 +381,8 @@ private Log createLogEntry(String borneId, String ancienneValeur, String heure, 
 - GetMapping("/product/all/create/updateAllBornesB")
 ce code la est la pour la creations des valeurs dans la table log tout ce qu'elle comporte en fonctions des connections et déconnection des bornes ...
  
+- GetMapping("/pseudoRecup/818")
+permet juste de récuperer le pseudo de la borne 818 si elle est connecter, c'etait un prémlsse pour la table Log et son pseudo.
         
 ## ☀ Récap
 - Appel API 
