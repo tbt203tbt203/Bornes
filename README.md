@@ -298,6 +298,9 @@ qui permetra de récuperer le pseudo de la derniere personne connecter sur la bo
 
 <b>Alors oui tous les Log... pourrait être regrouper avec l'appel get dans le controller.</b>     
 
+- Utilisateur, Permet de definir les colones dans la table Utilisateur.
+
+-NticoApplication, essentiel dans Spring boot mais je ne l'ai pas fait personnelement
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
