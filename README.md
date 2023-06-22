@@ -271,6 +271,11 @@ Et enfin nousa allons récuperer le username de la même façcon.
         
 
 Puis les return de fin qui permettent d'aller au controller et de l'afficher.
+
+- Log, création de la table Log comme bornes sauf que j'ai rajouter un Override c'etait pour tester de voir toutes les infos dans la table, mais maintenant on peut les avoir juste grace à updateLogJSON dans le controller sa permet d'afficher les infos de la table en json.
+
+- LogDebutfin, permet juste de definir si la borne est en debut ou en fin de charge et de le returner pour la base log.
+
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
