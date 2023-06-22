@@ -31,17 +31,17 @@ Le pom.xml est de base dans l'installation du initializr, mais on peut ajouter d
 
 La création de la table utilisateur permet de relier toutes les pages html ci-dessus:
 
-- Statut.html, savoir qui est en attente. Cependant elle renvoie un JSON. 
+- Statut.html, savoir qui est en attente. Cependant, elle renvoie un JSON. 
 - StatutAttente.html, permet grace à son pseudo de se mettre en attente.
--  StatutNOAttente.html, permet de s'enlever de l'attente grace à son pseudo.
-- AjoutUtilisateur.html, permet de crée un nouvel utilisateur et renvoie sur la page Merci.html expliquer au dessus.<br><br>
-Pour expliquer la table, nous avons 4 colones :
-- id, pour avoir la clé primaire et elle n'est pas vraiment a expliquer
-- email, pour avoir l'email de a personne qui c'est enregistrer 
-- pseudo, pour avoir le pseudo enregistrer et il est important pour la modif du statut en attente
-- statut, attente ou null simple a comprendre et a modifier grace a StatutAttente.html et StatutNOAttente.html<br>
+-  StatutAttente.html, permet grâce à son pseudo de se mettre en attente.
+- AjoutUtilisateur.html, permet de créer un nouvel utilisateur et renvoie sur la page Merci.html expliqué au-dessus.<br><br>
+Pour expliquer la table, nous avons 4 colonnes :
+- id, pour avoir la clé primaire et elle n'est pas vraiment à expliquer.
+- email, pour avoir l'email de a personne qui c'est enregistrer.
+- pseudo, pour avoir le pseudo enregistré et il est important pour la modification du statut en attente.
+- statut, attente ou null simple à comprendre et a modifier grâce a StatutAttente.html et StatutNOAttente.html<br>
 
-Pour expliquer d'ou viennent ces informations on les retrouvent dans la page html suivante AjoutUtilisateur.html car c'est elle qui va permettre la création des utilisateurs
+Pour expliquer d'où viennent ces informations, on les trouve dans la page html suivante AjoutUtilisateur.html, car c'est elle qui va permettre la création des utilisateurs.
 
 Voici un exemple de la table utilisateur :
 | id| email| pseudo| statut|
@@ -54,15 +54,15 @@ Voici un exemple de la table utilisateur :
 
 ## 🔌 Borne table
 
-La table Borne est très simple à comprendre, elle est composer de 5 colones
-- id_borne, qui a est assez comprehensible donc on retrouvera les id 818, 820, 821, 822.
-- heure, qui affiche l'heure ou il y'a eu le dernier changement dans la table
-- debutfin, qui indique si c'es le debut ou la fin de la charge, si c'est debut cela veut dire qu'elle charge puis si c'est Fin alors c'est que la charge est fini
-- utilisateur, indique l'utilisateur connecter actuelement si c'est debut et le pseudo de la derniere personne connecté si c'est Fin
-- libre, si la corne est occupé alors la colone libre = non et inversement
+La table Borne est très simple à comprendre, elle est composée de 5 colonnes.
+- id_borne, qui a est assez compréhensible donc on retrouvera les id 818, 820, 821, 822.
+- heure, qui affiche l'heure où il y a eu le dernier changement dans la table
+- debutfin, qui indique si c'es le début ou la fin de la charge, si c'est début cela veut dire qu'elle charge puis si c'est Fin alors c'est que la charge est fini
+- utilisateur, indique l'utilisateur connecté actuellement si c'est début et le pseudo de la dernière personne connectée si c'est Fin
+- libre, si la corne est occupée alors la colonne libre = non et inversement.
 
-Cette table est entierement fournie grace à la page BorneService, la ou toutes les informations vont etre prélever et redistribué dans les différents codes du BorneController.
-Cela permettra d'allimenter la page /borne/all ou on trouvera toutes les informations en temps reel des bornes.
+Cette table est entièrement fournie grâce à la page BorneService, là où toutes les informations vont être prélevées et redistribuées dans les différents codes du BorneController.
+Cela permettra d'alimenter la page /borne/all ou on trouvera toutes les informations en temps réel des bornes.
 
 Voici un exemple de la table bornes :
 
