@@ -52,7 +52,6 @@ Voici un exemple de la table utilisateur :
 | 1 | exemple 2 | texemple2 | null |
 | 1 | exemple 3 | texemple3 | attente |
 
-![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/5896d51e-a6dd-45d0-a13b-9fa737d46262)
 
 
 ## 🔌 Borne table
@@ -69,7 +68,12 @@ Cela permettra d'allimenter la page /borne/all ou on trouvera toutes les informa
 
 Voici un exemple de la table bornes :
 
-![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/195ed0fe-ed79-432f-ada3-bcc7d400c5f7)
+| id_borne| heure| debutfin| utilisateur| libre |
+| :---: | :---: | :---: | :---: | :---: |
+| 820 |  | 2023-06-20 15:01:35 | Fin | Oui |
+| 821 |  2023-06-20 15:01:28| Début | Non | 
+| 822 |  2023-06-20 15:01:54| Fin | attente | Oui |
+| 818 | 2023-06-20 15:01:36 | Début | Non | 
 
         
 ## 📝  Log table
