@@ -276,6 +276,28 @@ Puis les return de fin qui permettent d'aller au controller et de l'afficher.
 
 - LogDebutfin, permet juste de definir si la borne est en debut ou en fin de charge et de le returner pour la base log.
 
+- Logheure, permet d'afficher l'heure actuel si la born est connecté sinon elle est afficher dans  born controller par 
+
+```java
+LocalDateTime dateTimeActuelle = LocalDateTime.now();
+                        DateTimeFormatter formatteur = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+                        String dateTimeFormatee = dateTimeActuelle.format(formatteur);
+                        oldBornes.setHeure(dateTimeFormatee);
+```
+oui c'est possible de mettre que avec cette formule et d'enlever LogHeure mais je n'ai pas eu le temps de le faire.
+        
+- LogLibre, permet de definir si la born est libre ou non et de l'afficher dans la table Log.
+- LogUsername, permet de mettre le user name si la borne est en début de charge, sinon sa appelera dans lae borne controller cela
+
+```java
+ String pseudo = logRepository.findBybornes(borneId).get(0).getPseudo();
+                        oldBornes.setUtilisateur(pseudo);
+```
+   
+qui permetra de récuperer le pseudo de la derniere personne connecter sur la borne en question à partir de cette table Log.
+
+<b>Alors oui tous les Log... pourrait être regrouper avec l'appel get dans le controller.</b>     
+
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
