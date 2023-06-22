@@ -360,8 +360,28 @@ reliser a la page html AjoutUtilisateur.html comme son nom l'indique permet de g
 
 - GetMapping("/enleverAttente") celui ci c'est la même mais pour s'enlever de l'attente et relier à StatutNOAttente.html
 
+- GetMapping("/logenjson") Permet de voir la table Log en json
+ 
+Ce code la permet de definir en plus de la page Log les valeures pour la table Log 
 
 
+```java
+private Log createLogEntry(String borneId, String ancienneValeur, String heure, String pseudo, String debutfin, String libre) {
+        Log log = new Log();
+        log.setBorneId(borneId);
+
+        log.setAncienneValeur(ancienneValeur);
+        log.setHeure(heure);
+        log.setPseudo(pseudo);
+        log.setDebutfin(debutfin);
+        log.setLibre(libre);
+        return log;
+    }
+```
+- GetMapping("/product/all/create/updateAllBornesB")
+ce code la est la pour la creations des valeurs dans la table log tout ce qu'elle comporte en fonctions des connections et déconnection des bornes ...
+ 
+        
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
