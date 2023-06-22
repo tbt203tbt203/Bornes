@@ -1,33 +1,31 @@
 # <p align="center">Bornes Ntico 🏎️</p>
   
-Création d'une API qui récupere les informations des bornes de voitures électrique, depuis l'API de chez Rossini Energy.
+Création d'une API qui récupère les informations des bornes de voitures électriques, depuis l'API de chez Rossini Energy.
 
 ## 🧐 Présentation (API Ntico)
 Appel de l'API de chez Rossini Energy, refresh toutes les 30 secondes pour mettre à jour les informations, pour pouvoir les exploiter.<br>
-Création d'un mini site basique qui est relier au code java qui exploite l'API. 
-<br>La page d'acceuil d'appel Index.html
+Création d'un mini site basique qui est relié au code java qui exploite l'API. 
+<br>La page d'accueil d'appel Index.html
 <br>Celui-ci renvoie plusieurs informations.
 <br><br>
-La premiere, c'est l'information des bornes en temps reel (30s) :
+La première, c'est l'information des bornes en temps réel (30s) :
 - Numéro de la borne
 - La personne qui l'utilise
 - Depuis combien de temps elle est en charge
 - La puissance distribuée actuellement en Wh
-- La puissance totale distribué depuis le début de la charge (pour ensuite savoir approximativement sont pourcentage de charge)<br><br>
-Ensuite Il y'a la partie utilisateur : 
+- La puissance totale distribuée depuis le début de la charge (pour ensuite savoir approximativement son pourcentage de charge)<br><br>
+Ensuite, il y a la partie utilisateur :
 - Se mettre en attente (StatutAttente.html)
 - S'enlever de l'attente (StatutNOAttente.html)
 - Regardez les utilisateurs en attente (Statut.html)
-- Ajouter un nouvel utilisateur (AjoutUtilisateur.html), (Renvoie sur Merci.html qui demande si on crée un new utilisateur / si on retourne aux bornes ou à l'acceuil)<br><br>
-Chacunes sont relier a une ou plusieures pages HTML qui sont relier au code java qui permet de faire des redirections et de modifier la table Utilisateur.
+- Ajouter un nouvel utilisateur (AjoutUtilisateur.html), (Renvoie sur Merci.html qui demande si on crée un nouvel utilisateur / si on retourne aux bornes ou à l'acceuil)<br><br>
+Chacune est reliée à une ou plusieurs pages HTML qui sont reliées au code java qui permet de faire des redirections et de modifier la table Utilisateur.
 
-Les pages java qui permettent d'avoir le rafrechissement toutes les 30 secondes sont les suivantes : 
-ScheduledFixedRateExample,
-SchedulerConfig
+Les pages Java qui permettent d'avoir le rafraîchissement toutes les 30 secondes sont les suivantes : ScheduledFixedRateExample, SchedulerConfig
 
-Dans ScheduledFixedRateExample la premiere "response" permet de refresh la table bornes que l'on va voir juste après. Et le "response8" permet de refresh la table Log en rapport à celle bornes car elles sont reliser.
+Dans ScheduledFixedRateExample la première "response" permet de refresh la table bornes que l'on va voir juste après. Et le "response8" permet de refresh la table Log en rapport à celle bornes car elles sont reliées.
 
-Le pom.xml est de base dans l'installation du initializr mais ont peut tajouter des pakages à la main si on le souhaite.
+Le pom.xml est de base dans l'installation du initializr, mais on peut ajouter des pakages à la main si on le souhaite.
 
 ## 👶 Utilisateur table
 
