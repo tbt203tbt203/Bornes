@@ -306,7 +306,37 @@ qui permetra de récuperer le pseudo de la derniere personne connecter sur la bo
 - ressources, déja pas mal expliquer au dessus dans la présentation, je peux juste rajouter, que casi chaques pages a un titre, des bouttons et les pages ou il faut ecrire, il y'a un toLowerCase pour tous mettre en minuscule comme sa il n'y a plus de pb de majuscules ...
 
 ## 👨🏽‍💻 BornesController
+Pour expliquer concretement, au début ont importe toutes les autres pages java  et autres. Après ont définis la page et ce qu'il va y avoir  comme le fait que c'est un controller et le requestMapping borne.
 
+
+```java
+@SpringBootApplication
+@Controller
+@RestController
+@Component
+@RequestMapping("borne")
+```
+        
+Ensuite on fait des Autowired qui permette d'appeler les autres pages java et de les définir dans cette page : 
+
+
+```java
+    @Autowired
+    private BornesService bornesService;
+    private final UtilisateursRepository utilisateursRepository;
+    private LogDebutfin LogDebutfin;
+    @Autowired
+    private BornesRepository bornesRepository;
+    @Autowired
+    private LogUsername logUsername;
+    @Autowired
+    private LogLibre LogLibre;
+    @Autowired
+    private LogHeure LogHeure;
+    @Autowired
+    private LogRepository logRepository;
+```
+        
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
