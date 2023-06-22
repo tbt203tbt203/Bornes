@@ -270,7 +270,7 @@ Et enfin nousa allons récuperer le username de la même façcon.
 ```
         
 
-
+Puis les return de fin qui permettent d'aller au controller et de l'afficher.
 ## ☀ Récap
 - Appel API 
 - Création tables : Log / Bornes / Utilisateur
