@@ -27,6 +27,8 @@ SchedulerConfig
 
 Dans ScheduledFixedRateExample la premiere "response" permet de refresh la table bornes que l'on va voir juste après. Et le "response8" permet de refresh la table Log en rapport à celle bornes car elles sont reliser.
 
+Le pom.xml est de base dans l'installation du initializr mais ont peut tajouter des pakages à la main si on le souhaite.
+
 ## 👶 Utilisateur table
 
 La création de la table utilisateur permet de relier toutes les pages html ci-dessus:
