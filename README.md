@@ -161,7 +161,8 @@ Voici un exemple de la table Log :
 
 Nous avous une présentation comme celle ci : 
 
-![Image](https://private-user-images.githubusercontent.com/137182634/247553679-fd2ec8ce-38cf-43cd-b129-559aa99d5837.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUyMzE0LCJuYmYiOjE2ODczNTIwMTQsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU1MzY3OS1mZDJlYzhjZS0zOGNmLTQzY2QtYjEyOS01NTlhYTk5ZDU4MzcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTI1MzM0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWM1NDllZGJjM2FkMWZmNWFiOTFmMmZjMTU4NDRlMjlkMmQ5YzM3OTViYTk3YjRjMmU4OWFiOGNmNmRhYTJlOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.p87e6Fe0CmGwGxx85Nhb4rBYLk7wRpl411rykWqd7XA)
+![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/419d53e7-3b29-405a-a6ad-d0b0c72e6252)
+
 
 https://prnt.sc/08s0pjtmVsgR
         
@@ -415,18 +416,18 @@ http://api.charge.re/public/1/chargecontroller/822
 http://localhost:8080/index.html
 
 
-![Image](https://private-user-images.githubusercontent.com/137182634/247554929-0ff7f85f-00d1-4b52-bb19-bb810af56554.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg3MzUyNjE1LCJuYmYiOjE2ODczNTIzMTUsInBhdGgiOiIvMTM3MTgyNjM0LzI0NzU1NDkyOS0wZmY3Zjg1Zi0wMGQxLTRiNTItYmIxOS1iYjgxMGFmNTY1NTQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MjFUMTI1ODM1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTZkYTcyMWNjZjM2NDJlNGIwMWU0YWYyMjk1NDFmYWVlYWQ4MTAxMmE2YzFkZDhhMWFmNTM5ZmI2NjYyMWZhNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.oZaNELpZxUgqeV_7weIBnrOjDwxZe8MnSDzZvy_TChA)
+![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/44818b38-bb1b-46f2-8146-f2f83d923efa)
 
-https://prnt.sc/VFAB2Mcbdfru
+
         
 <br>
 
 http://localhost:8080/borne/all
 
-https://prnt.sc/TA32xp_i2RhN
+
 
 ㊗️
         
-![Image](https://user-images.githubusercontent.com/137182634/247886651-b5d96cd9-d638-442d-ba49-c7f347ac3099.png)
+
         
         
