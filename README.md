@@ -152,6 +152,16 @@ Image et code si tu veut clear la base :
 - ancienne_valeur, pour comprendre cette valeur il faut voir que c'est celle ci qui va mettre les informations en fonction de la valeur précedente, je veut dire par la que si la valeure libre = Non et que la personne sur la borne se débranche alors la valeure sera egale à Oui dans ce cas cela créra une nouvelle lignes avec toutes les infos.
         
 Voici un exemple de la table Log :
+| id| ancienne_valeur| borne_id | debutfin | heure | libre | pseudo|
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| 1 | Oui | 818 | Début | 2023-06-22 14:00:05 | Non | sdelos |
+| 2 | Oui | 820 | Début | 2023-06-22 14:05:10 | Non | aherbaut |
+| 3 | Oui | 821 | Début | 2023-06-22 14:10:15 | Non | sbouju |
+| 4 | Oui | 822 | Début | 2023-06-22 14:15:20 | Non | rvangreveninge |
+| 5 | Non | 821 | Fin | 2023-06-22 16:45:08 | Oui | sbouju |
+| 6 | Non | 820 | Fin | 2023-06-22 17:55:25 | Oui | aherbaut |
+| 7 | Non | 818 | Fin | 2023-06-22 18:19:56 | Oui | sdelos |
+| 8 | Non | 822 | Fin | 2023-06-22 19:38:50 | Oui | rvangreveninge |
 
 ![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/bfacc062-7328-46a8-9084-a5416fdd3293)
 
