@@ -175,20 +175,20 @@ Voici un exemple de la table Log :
 
 ## 📚 Présentation complete src
 
-Nous avous une présentation comme celle ci : 
+Nous avons une présentation comme celle-ci : 
 
 ![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/419d53e7-3b29-405a-a6ad-d0b0c72e6252)
 
 
-https://prnt.sc/08s0pjtmVsgR
-        
-- Voyons donc Archive celui ci ce sont juste des codes que j'ai utiliser avant et que j'ai garder au cas ou je devais recuperer des infos pour améliorer le code ou reprendre une version précedente.
 
-- config, ici il y'a les 2 codes pour l'actualisation toutes les 30 secondes de l'appel sur l'API de Rossini.
-- controller, dans ce dossier nous avons BornesController qui est la base même de notre API car c'est lui qui va crée la relation entre le code dur JAVA et une page affichable soit en html soit aussi par du GETMAPPING qui va crée des redirections  comme celle ci par ex : http://localhost:8080/borne/all
+        
+- Voyons donc Archive celui-ci, ce sont juste des codes que j'ai utilisé avant et que j'ai gardé au cas où je devrais récupérer des infos pour améliorer le code ou reprendre une version précédente.
+
+- config, ici il y a les 2 codes pour l'actualisation toutes les 30 secondes de l'appel sur l'API de Rossini.
+- controller, dans ce dossier nous avons BornesController qui est la base même de notre API, car c'est lui qui va créer la relation entre le code JAVA et une page affichable soit en html soit aussi par du GETMAPPING qui va crée des redirections comme celle-ci par ex : http://localhost:8080/borne/all
 avec des /.../... 
 <br>Je vais le détailler en dessous.
-- repository, ce fichier est très important pour notre base de données postgres car ce sont c'est fichier qui font la relations entre le sql et le java, c'est ici que l'on va récupérer, modifier ou supprimer des infos dans la base et dans les différentes tables.
+- repository, ce fichier est très important pour notre base de données postgres, car ce sont les fichiers qui font la relation entre le sql et le java, c'est ici que l'on va récupérer, modifier ou supprimer des infos dans la base et dans les différentes tables.
 Ici l'exemple avec le code de la table Log :
  
 
@@ -198,9 +198,9 @@ Ici l'exemple avec le code de la table Log :
 ```
         
 
-<h4><b>- service, regroupe l'ensemble du code qui n'a pas de refresh de sql ou de relations avec d'autres pages. Il est composer de 8 fichier java et 1 9 eme LogService que je n'ai pas eu le temps de faire donc le code est toujours dans BornesCoontrolller.
+<h4><b>- service, regroupe l'ensemble du code qui n'a pas de refresh de sql ou de relations avec d'autres pages. Il est composé de 8 fichiers java et le 9e LogService que je n'ai pas eu le temps de faire donc le code est toujours dans BornesCoontrolller.
 <br></h4></b>
-- Borne, premiere page de cration de la table bone elle est composer a 100% de la création des colones
+- Borne, première page de création de la table bornes elle est composer à 100 % de la création des colonnes
 
 
 
@@ -221,9 +221,9 @@ Ici l'exemple avec le code de la table Log :
     @Column(name = "debutfin")
     private String df;
 ```
-comme ont peut le voir sa crée les colones et id_borne est aussi crée en tant que clé primaire.
+Comme on peut le voir ça crée les colonnes et id_borne est aussi crée en tant que clé primaire.
 
-- BornesService, c'est la ou le code principale ce trouve, avec la requette api et ont peut egalement appercevoir ceci : 
+- BornesService, c'est la ou le code principal se trouve, avec la requête api et on peut également apercevoir ceci : 
 
 
 ```java
@@ -232,8 +232,8 @@ public static String getBorne(String borneNumber) throws IOException {
             URL url = new URL("https://api.charge.re/public/1/chargecontroller/"+ borneNumber +"/?format=json");
            
 ```
-ce que l'on voit, c'est que nous ne marqu'on plus le numero de la borne mais que sa sera fait directement dans le controller pour ne pas avoir un code qui se repete 4 fois.
-Ensuite, nous remarqu'on que le code est séparer en deux, dans la premiere partie, ont peut voir que si la borne indique que active charge = null alors afficher oui (librte = oui)
+Ce que l'on voit, c'est que nous ne marquons plus le numéro de la borne, mais que ça sera fait directement dans le controller pour ne pas avoir un code qui se répète 4 fois.
+Ensuite, nous remarquons que le code est séparer en deux, dans la première partie, on peut voir que si la borne indique qu'active charge = null alors afficher oui (libre = oui)
 sinon faire le code qui est en dessous.
 
 
@@ -252,18 +252,18 @@ if (jsonResponse.contains("\"active_charge\":")) {
         
         
         
-Par la suite on à le start qui nous donnent l'heure du début de la charge on l'appel et on recupere l'heure puis ont le change de format, après ont appel l'heure actuelle avec le timestamp et on change aussi le format, ensuite on fait les soustrait pour avoir l'heure actuel.
+Par la suite, on a le start qui nous donnent l'heure du début de la charge, on l'appelle et on récupère l'heure puis on le change de format, après ont appel l'heure actuelle avec le timestamp et on change aussi le format, ensuite, on fait les soustrait pour avoir l'heure actuelle.
 
 ```java
 String formatEntree = "yyyy-MM-dd'T'HH:mm:ss[.SSSSSS][.SSSSS][.SSS][.SS][.S]X";
                     String formatSortie = "yyyy-MM-dd HH:mm:ss";
 ```
         
-Ensuite nous allons chercher le power qui est le wh actuel donc voir si sa charge bien.
+Ensuite, nous allons chercher le power qui est le wh actuel donc voir si ça charge bien.
 
-Puis le ernergy_wh qui est la charge totale distribué depuis le debut.
+Puis le ernergy_wh qui est la charge totale distribuée depuis le début.
 
-Et enfin nousa allons récuperer le username de la même façcon.
+Et enfin nous allons récupérer l'username de la même façon.
 ```JSON
  "active_charge": {
         "id": 99077,
@@ -287,41 +287,40 @@ Et enfin nousa allons récuperer le username de la même façcon.
 
 Puis les return de fin qui permettent d'aller au controller et de l'afficher.
 
-- Log, création de la table Log comme bornes sauf que j'ai rajouter un Override c'etait pour tester de voir toutes les infos dans la table, mais maintenant on peut les avoir juste grace à updateLogJSON dans le controller sa permet d'afficher les infos de la table en json.
+- Log, création de la table Log comme bornes sauf que j'ai rajouté un Override c'était pour tester de voir toutes les infos dans la table, mais maintenant, on peut les avoir juste grâce à updateLogJSON dans le controller ça permet d'afficher les infos de la table en json.
 
-- LogDebutfin, permet juste de definir si la borne est en debut ou en fin de charge et de le returner pour la base log.
+- LogDebutfin, permet juste de définir si la borne est en début ou en fin de charge et de le retourner pour la base log.
 
-- Logheure, permet d'afficher l'heure actuel si la born est connecté sinon elle est afficher dans  born controller par 
-
+- Logheure, permet d'afficher l'heure actuelle si la borne est connecté sinon elle est afficher dans bornescontroller par :
+  
 ```java
 LocalDateTime dateTimeActuelle = LocalDateTime.now();
                         DateTimeFormatter formatteur = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
                         String dateTimeFormatee = dateTimeActuelle.format(formatteur);
                         oldBornes.setHeure(dateTimeFormatee);
 ```
-oui c'est possible de mettre que avec cette formule et d'enlever LogHeure mais je n'ai pas eu le temps de le faire.
-        
-- LogLibre, permet de definir si la born est libre ou non et de l'afficher dans la table Log.
-- LogUsername, permet de mettre le user name si la borne est en début de charge, sinon sa appelera dans lae borne controller cela
+Oui, c'est possible de mettre qu'avec cette formule et d'enlever LogHeure, mais je n'ai pas eu le temps de le faire.
+
+- LogLibre, permet de définir si la borne est libre ou non et de l'afficher dans la table Log.
+- LogUsername, permet de mettre l'username si la borne est en début de charge, sinon ça appellera dans le bornecontroller cela.
 
 ```java
  String pseudo = logRepository.findBybornes(borneId).get(0).getPseudo();
                         oldBornes.setUtilisateur(pseudo);
 ```
    
-qui permetra de récuperer le pseudo de la derniere personne connecter sur la borne en question à partir de cette table Log.
+Qui permettra de récupérer le pseudo de la dernière personne connecter sur la borne en question à partir de cette table Log.
 
-<b>Alors oui tous les Log... pourrait être regrouper avec l'appel get dans le controller.</b>     
+<b>Alors oui tous les Log... pourrait être regroupé avec l'appel get dans le controller.</b>     
 
-- Utilisateur, Permet de definir les colones dans la table Utilisateur.
+- Utilisateur, permet de définir les colonnes dans la table Utilisateur.
 
--NticoApplication, essentiel dans Spring boot mais je ne l'ai pas fait personnelement
+-NticoApplication, essentiel dans Spring boot, mais je ne l'ai pas fait personnellement.
 
-- ressources, déja pas mal expliquer au dessus dans la présentation, je peux juste rajouter, que casi chaques pages a un titre, des bouttons et les pages ou il faut ecrire, il y'a un toLowerCase pour tous mettre en minuscule comme sa il n'y a plus de pb de majuscules ...
+- ressources, déjà pas mal expliquer au-dessus dans la présentation, je peux juste rajouter, que quasi chaque pages a un titre, des boutons et les pages ou il faut écrire, il y a un toLowerCase pour tous mettre en minuscule comme ça il n'y a plus de problème de majuscules ...
 
 ## 👨🏽‍💻 BornesController
-Pour expliquer concretement, au début ont importe toutes les autres pages java  et autres. Après ont définis la page et ce qu'il va y avoir  comme le fait que c'est un controller et le requestMapping borne.
-
+Pour expliquer concrètement, au début, on importe toutes les autres pages java et autres. Après, on définit la page et ce qu'il va y avoir comme le fait que c'est un controller et le requestMapping borne.
 
 ```java
 @SpringBootApplication
@@ -331,8 +330,7 @@ Pour expliquer concretement, au début ont importe toutes les autres pages java 
 @RequestMapping("borne")
 ```
         
-Ensuite on fait des Autowired qui permette d'appeler les autres pages java et de les définir dans cette page : 
-
+Ensuite, on fait des Autowired qui permette d'appeler les autres pages java et de les définir dans cette page : 
 
 ```java
     @Autowired
@@ -351,13 +349,13 @@ Ensuite on fait des Autowired qui permette d'appeler les autres pages java et de
     private LogRepository logRepository;
 ```
         
-Après ont appel les tables ...
+Après, on appelle les tables ...
 <br>
-Ensuite ont a des GetMapping ce sont toutes des pages que l'on appel grace au localhost.
+Ensuite, on a des GetMapping, ce sont toutes des pages que l'on appelle grâce au localhost.
 <br>
-Et également les PostMapping, Alors eux sont des pages qui renvoient sur d'autres pages.
+Et également les PostMapping, alors eux sont des pages qui renvoient sur d'autres pages.
 <br>
-- Le premier     @GetMapping("/all") ligne 55 permet d'afficher la pages ou toutes les bornes sont afficher.
+- Le premier @GetMapping("/all") ligne 55 permet d'afficher la pages ou toutes les bornes sont afficher.
 
 - GetMapping("/statut") Permet d'afficher la page ou l'on voit le statut en attente des personnes de la table Utilisateur.
 
