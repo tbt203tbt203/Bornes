@@ -355,27 +355,26 @@ Ensuite, on a des GetMapping, ce sont toutes des pages que l'on appelle grâce a
 <br>
 Et également les PostMapping, alors eux sont des pages qui renvoient sur d'autres pages.
 <br>
-- Le premier @GetMapping("/all") ligne 55 permet d'afficher la pages ou toutes les bornes sont afficher.
+- Le premier @GetMapping("/all") ligne 55 permet d'afficher la page ou toutes les bornes sont afficher.
 
-- GetMapping("/statut") Permet d'afficher la page ou l'on voit le statut en attente des personnes de la table Utilisateur.
+- GetMapping("/statut") permet d'afficher la page où l'on voit le statut en attente des personnes de la table Utilisateur.
 
 - PostMapping("/create/utilisateur")
-reliser a la page html AjoutUtilisateur.html comme son nom l'indique permet de gererer un nouvel utilisateur pour la table utilisateur.
+Relier a la page, html AjoutUtilisateur.html comme son nom l'indique permet de générer un nouvel utilisateur pour la table utilisateur.
 
 - GetMapping("/merci/redirection") redirection pour la page Merci.html.
 
-- PostMapping("/product/all/AjoutUtilisateur") celui ci aussi.
+- PostMapping("/product/all/AjoutUtilisateur") celui-ci aussi.
 
 - GetMapping("/enregistrement/attente") lui aussi.
 
-- GetMapping("/mettreAttente") permet de ce mettre en attente par le pseudo relier aussi a la page StatutAttente.html
+- GetMapping("/mettreAttente") permet de se mettre en attente par le pseudo relier aussi a la page StatutAttente.html
 
-- GetMapping("/enleverAttente") celui ci c'est la même mais pour s'enlever de l'attente et relier à StatutNOAttente.html
+- GetMapping("/enleverAttente") celui-ci, c'est la même, mais pour s'enlever de l'attente et relier à StatutNOAttente.html
 
-- GetMapping("/logenjson") Permet de voir la table Log en json
- 
-Ce code la permet de definir en plus de la page Log les valeures pour la table Log 
+- GetMapping("/logenjson") permet de voir la table Log en json
 
+Ce code la permet de définir en plus de la page Log les valeurs pour la table Log 
 
 ```java
 private Log createLogEntry(String borneId, String ancienneValeur, String heure, String pseudo, String debutfin, String libre) {
@@ -391,10 +390,10 @@ private Log createLogEntry(String borneId, String ancienneValeur, String heure, 
     }
 ```
 - GetMapping("/product/all/create/updateAllBornesB")
-ce code la est la pour la creations des valeurs dans la table log tout ce qu'elle comporte en fonctions des connections et déconnection des bornes ...
- 
+Ce code-là, est là pour la création des valeurs dans la table log tout ce qu'elle comporte en fonctions des connections et déconnections des bornes ...
+
 - GetMapping("/pseudoRecup/818")
-permet juste de récuperer le pseudo de la borne 818 si elle est connecter, c'etait un prémlsse pour la table Log et son pseudo.
+Permet juste de récupérer le pseudo de la borne 818 si elle est connectée, c'était une prémisse pour la table Log et son pseudo.
         
 ## ☀ Récap
 - Appel API 
