@@ -237,6 +237,39 @@ if (jsonResponse.contains("\"active_charge\":")) {
         
         
         
+Par la suite on à le start qui nous donnent l'heure du début de la charge on l'appel et on recupere l'heure puis ont le change de format, après ont appel l'heure actuelle avec le timestamp et on change aussi le format, ensuite on fait les soustrait pour avoir l'heure actuel.
+
+```java
+String formatEntree = "yyyy-MM-dd'T'HH:mm:ss[.SSSSSS][.SSSSS][.SSS][.SS][.S]X";
+                    String formatSortie = "yyyy-MM-dd HH:mm:ss";
+```
+        
+Ensuite nous allons chercher le power qui est le wh actuel donc voir si sa charge bien.
+
+Puis le ernergy_wh qui est la charge totale distribué depuis le debut.
+
+Et enfin nousa allons récuperer le username de la même façcon.
+```JSON
+ "active_charge": {
+        "id": 99077,
+        "start": "2023-06-22T06:45:38.734114Z",
+        "stop": null,
+        "user": {
+            "id": 12685,
+            "username": "pboulangeot",
+            "has_guest_feat": false
+        },
+        "last_nonzero_power_time": "2023-06-22T06:52:10.624858Z",
+        "energy_wh": 1100,
+        "last_power": {
+            "chargingstation": 632,
+            "power": 11078,
+            "timestamp": "2023-06-22T06:52:10.529254Z"
+        }
+    },
+```
+        
+
 
 ## ☀ Récap
 - Appel API 
