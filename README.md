@@ -46,6 +46,11 @@ Pour expliquer la table, nous avons 4 colones :
 Pour expliquer d'ou viennent ces informations on les retrouvent dans la page html suivante AjoutUtilisateur.html car c'est elle qui va permettre la création des utilisateurs
 
 Voici un exemple de la table utilisateur :
+| id| email| pseudo| statut|
+| :---: | :---: | :---: | :---: |
+| 1 | exemple 1 | texemple | attente |
+| 1 | exemple 2 | texemple2 | null |
+| 1 | exemple 3 | texemple3 | attente |
 
 ![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/5896d51e-a6dd-45d0-a13b-9fa737d46262)
 
@@ -163,7 +168,6 @@ Voici un exemple de la table Log :
 | 7 | Non | 818 | Fin | 2023-06-22 18:19:56 | Oui | sdelos |
 | 8 | Non | 822 | Fin | 2023-06-22 19:38:50 | Oui | rvangreveninge |
 
-![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/bfacc062-7328-46a8-9084-a5416fdd3293)
 
         
 
