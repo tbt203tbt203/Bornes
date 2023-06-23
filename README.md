@@ -454,7 +454,7 @@ Relier docker a la bdd par le run ...
 
 Dans la cnfig :
 ![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/df3740e3-dde4-4781-893d-4fb6fb22daef)
-
+DB_PASSWORD=1234;DB_USER=user;DB_URL=jdbc:postgresql://localhost:5432/postgres
 
 ㊗️
         
