@@ -439,6 +439,10 @@ http://localhost:8080/borne/all
 ![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/909f4d87-a151-490e-9d24-71f559c3c8cd)
 
 
+## Base de donnée
+Pour faire simple, crée un postgres sur docker, puis la relier sur intellij.<br>
+Dans intellij, allez dans run et edit configuration pour mettre la relation avec la bdd suivre les images.
+
 
 ㊗️
         
