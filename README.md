@@ -443,6 +443,18 @@ http://localhost:8080/borne/all
 Pour faire simple, crée un postgres sur docker, puis la relier sur intellij.<br>
 Dans intellij, allez dans run et edit configuration pour mettre la relation avec la bdd suivre les images.
 
+bdd sur intellij :
+![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/315831ee-cbb9-4b33-bfb4-54f009f01896)
+
+Docker :
+![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/b92c18b6-8fdf-41e9-9e2e-83d3ca8e1e49)
+
+Relier docker a la bdd par le run ...
+![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/be1be849-cf21-4c80-8bca-b3af51f7f84f)
+
+Dans la cnfig :
+![image](https://github.com/tbt203tbt203/Bornes/assets/137182634/df3740e3-dde4-4781-893d-4fb6fb22daef)
+
 
 ㊗️
         
